@@ -102,15 +102,21 @@ The project includes two fully interactive dashboards developed in Power BI:
 ## Project Structure:
 
 Inventory Management/
+
   src/
+  
     data_generation/     # Code for generating sample data
+    
     dimensions/          # Scripts for dimension tables
+    
     facts/               # Scripts for fact tables
 
   reports/
+  
     inventory Management.pbix       # Power BI report
 
   docs/
+  
     project_report.pdf   # Project write-up or documentation
 
   README.md              # Project overview and usage
