@@ -27,6 +27,7 @@ Inventory Product ER Diagram:
 Captures detailed relationships among products, orders, customers, agents, retailers, warehouses, payment modes, and statuses.
 
 Dimension Tables:
+
  DimCustomer  
  DimProductCategory  
  DimProduct  
@@ -41,6 +42,7 @@ Dimension Tables:
  DimLocation  
 
 Fact Tables:
+
  FactProduct  
  FactProductPurchase  
  FactProductStatus  
@@ -50,6 +52,7 @@ Inventory Service ER Diagram:
 Focuses on customer service interactions, categories, agents, and payments.
 
 Dimension Tables:
+
  DimCustomer  
  DimService  
  DimServiceCategory  
@@ -59,6 +62,7 @@ Dimension Tables:
  DimRetailer  
 
 Fact Table:
+
  FactInventoryService  
 
 
